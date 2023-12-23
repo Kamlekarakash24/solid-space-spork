@@ -1,0 +1,98 @@
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 100px;
+    box-shadow: 2px 0px 5px gray;
+}
+.topbar1{
+    font-weight: 900;
+    color: #0084ff;
+    position:absolute;
+}
+.topbar2{
+    font-size: x-large;
+    font-style: italic;
+   margin-top: 50px;
+    
+}
+.topbar3{
+    color: gray;
+    width:300px;
+}
+.topbar4{
+    padding:15px;
+    margin-top: 15px;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 16px;
+}
+.filimg{
+    height: 20px;
+    width: 20px;
+    
+}
+.main{
+   margin-left: 160px;
+   margin-right: 100px;
+    text-align: left;
+    
+}
+.filter{
+    display: inline-block;
+    color: #0084ff;
+    border: 1px #0084ff solid;
+    border-radius: 16px;
+    padding: 8px;
+    
+    font-size: small;
+    margin-right: 25px;
+    margin-top: 40px;
+    
+}
+.footer{
+    background-image: url(https://www.edyoda.com/static/media/FooterBg.0d54e96d.png);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 40px;
+}
+.addr{
+    width: 150px;
+}
+.blog{
+    height: 600px;
+    width: 300px;
+    border: 1px lightblue solid;
+}
+.blogs{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.auth{
+    display: inline;
+    color: #0084ff;
+}
+.image{
+    width:300px;
+    height: 300px;
+}
+.date{
+    display: inline-block;
+}
+.desc{
+    color:gray;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 300px;
+    height: 60px;
+}
+.filter:hover{
+    color:white;
+    background-color: #0084ff;
+}
